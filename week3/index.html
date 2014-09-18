@@ -4,11 +4,15 @@
     <meta charset="utf-8" />
     <title>Week 3 - Foundation Boilerplate</title>
     <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/foundation.min.css" rel="stylesheet" />
     <link href="styles/main.css" rel="stylesheet" />
 </head>
 <body>
 
     <!-- Scripts -->
+    <!-- Always first --><script src="scripts/vendor/jquery.js"></script>
+    <!-- Always 2nd --><script src="scripts/foundation/foundation.js"></script>
+    <!-- This script starts foundation --><script>$(document).foundation();</script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
